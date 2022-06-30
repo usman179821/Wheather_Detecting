@@ -26,7 +26,8 @@ class WeatherViewController: UIViewController,UITextFieldDelegate {
         searchTextField.delegate = self
         // Do any additional setup after loading the view.
     }
-
+//Mark: - action
+    
     @IBAction func searchPressed(_ sender: Any) {
         
         searchTextField.endEditing(true)
